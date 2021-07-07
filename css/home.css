@@ -1,0 +1,65 @@
+h2{
+	
+	width: 500px;
+}
+
+.border-bottom-gris{
+	
+	border-bottom: 1px solid #BFBFBF; 
+}
+
+.img-izq {
+	
+	float: left;
+}
+
+
+.titulo-imagen {
+	
+	width: 150px;
+	font-size: 11px;
+	padding: 5px;
+	text-align: left;
+	margin-left: 54px;
+	
+
+}
+
+
+
+.borde-form{
+	
+	border: 1px solid #cacaca;
+	padding: 10px 40px 10px 40px;
+	text-align: center;
+	
+}
+
+
+.form-control{
+	
+	width: 220px;
+	background-color: #e8e8e8;
+	border-radius: 0;
+}
+	
+.form-control:focus{
+	
+	border: 2px solid #F25C05;
+	box-shadow: none;
+	
+}	
+	
+
+
+@media screen and (min-width: 60em){
+	
+	
+	.titulo-imagen {
+		
+		margin-left: 45px;
+	}
+	
+	.form-control{
+		
+		width: 430px;

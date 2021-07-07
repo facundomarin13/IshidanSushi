@@ -1,0 +1,111 @@
+@import 'all.min.css';
+
+main{
+	
+	width: 80%;
+	margin: auto;
+	
+}
+
+.bg-black {
+	
+	background-color: #1E1E1E;
+}
+
+.bg-naranja{
+	
+	background-color: #F25C05;
+}
+
+.bg-gris{
+	
+	background-color: #F2F2F2;
+}
+
+.bg-imagen{
+	
+	background-color: #373737;
+}
+
+.color-naranja{
+	
+	color: #F25C05;
+}
+
+.color-gris{
+	
+	color: #8C8C8C;
+}
+
+.border-top-naranja{
+	
+	border-top: 3px solid #F25C05;
+}
+
+
+.border-footer{
+	
+	border-top: 1px solid #F25C05;
+	
+}
+
+.active {
+	
+	background-image: linear-gradient(to bottom, #ffffff, #cacaca, #979797, #676767, #3b3b3b, #292929, #181818, #000000, #000000, #000000, #000000, #000000);
+	
+	font-weight: bold;
+}
+
+.navbar a{
+	
+	font-weight: bold;
+	color: #FFF !important;
+}
+
+.navbar a:hover{
+	
+	background-image: linear-gradient(to bottom, #ffffff, #cacaca, #979797, #676767, #3b3b3b, #292929, #181818, #000000, #000000, #000000, #000000, #000000);
+	
+	
+}
+
+
+
+.link{
+	color: #F25C05;
+	text-decoration: underline;
+	
+}
+
+
+
+.flecha-left {
+	
+	text-align: center;
+}
+
+.flecha-right{
+	
+	text-align: center;
+}
+
+
+@media screen and (min-width: 60em){
+	
+	
+	
+	.flecha-left{
+		
+		text-align: start;
+	
+	}
+	
+	.flecha-right{
+		
+		text-align: end;
+	
+	}
+	
+}
+
+
